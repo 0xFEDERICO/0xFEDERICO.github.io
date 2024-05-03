@@ -1,15 +1,18 @@
-title: Moonwalk
-author: Abhinav Saxena
-url: https://www.abhinavsaxena.com/moonwalk # root address of the site
+title: 0xfederico
+author: 0xfederico
+url: https://0xfederico.github.io # root address of the site
 description: > # description of the site (multiple lines allowed)
-  Moonwalk is a fast and elegant Jekyll theme with a clean dark mode. It comes with horizontal list (for navbar and footer), card list (for portfolio), and a generic vertical list. It is very easy to modify in case you want to build over it - please see _layouts/home.html to do that.
+  Hi, my name is Federico, I have a bachelor's degree in computer science and I'm currently doing my master degree always in computer science.
+  I am just a wannabe hacker passionate about cybersecurity, networking, FLOSS and privacy.
+  I am also a CTF addict :)
+
 
 permalink: /:slug
 
 favicon: "./logo.png" # relative path to site's favicon
 
 twitter:
-    username: abhinav # update or delete this
+    username: # update or delete this
     card: summary_large_image
 
 #theme: moonwalk # if you are using GitHub Pages, change it to remote_theme: abhinavs/moonwalk
@@ -33,9 +36,9 @@ theme_config:
   show_tags: true # show tags in a blog posts
   # options for "home" page
   home:
-    title_projects: Portfolio
+    title_projects: Projects
     title_misc_list: Details
-    title_blog: Blog
+    title_blog: Personal Blog
     title_old_projects: Old Projects
 
 soopr:
@@ -48,4 +51,4 @@ sass:
 
 plugins:
   - jekyll-feed
-  - jekyll-soopr-seo-tag
+  - jekyll-seo-tag
